@@ -96,7 +96,7 @@ header{
     font-size: 13px;
 }
 .features__more:hover{
-    color:#ec5483;
+    color:#fff;
 }
 .features__more::after{
     content:url("..//images/arrow-right_gray.png");
