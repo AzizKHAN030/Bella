@@ -63,6 +63,8 @@ header{
 .header__btn::after{
     content: url("..//images/arrow-right.png");
     margin-left: 10px;
+    position: relative;
+    bottom: 2px;
 }
 .header__btn:hover{
     background: #df4b7a;
@@ -103,6 +105,8 @@ header{
     margin-left: 7px;
     display: inline-flex;
     align-items: center;
+    position: relative;
+    bottom: 2px;
 }
 /* TEAM */
 .team, .news{
