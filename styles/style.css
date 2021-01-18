@@ -158,6 +158,9 @@ header{
     font-family: "Open Sans";
     text-align: center;
 }
+.brands-item a{
+    color:  #eae8e8;
+}
 .brands__text{
     font-weight: 700;
     font-style: italic;
@@ -178,12 +181,15 @@ font-size: 8px;
     margin-bottom: 40px;
 }
 .news__title{
+    margin-bottom: 14px;
+}
+.news__title a{
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 14px;
+    color: #6c6c6c;
 }
 .news__date{
     font-weight: 300;
@@ -226,11 +232,14 @@ font-size: 8px;
     margin-left: 40px;
 }
 .posts__title{
+    margin: -5px 0 23px;
+}
+.posts__title a{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
     line-height: 26px;
-    margin: -5px 0 23px;
+    color: #6c6c6c;
 }
 .posts__text{
     font-size: 14px;
