@@ -371,4 +371,24 @@ font-size: 8px;
             display: block;
             margin-bottom: 50px;
         }
+        .team-item{
+            width:70%
+        }
+        .news-item{
+            width: 70%;
+        }
+        .services-item{
+            width:70%;
+        }
+        .features-item{
+            width:70%;
+        }
+    }
+    @media screen and (max-width:400px){
+        .container{
+            width:100%;
+        }
+        .menu__item{
+            margin: 0 5px;
+        }
     }
