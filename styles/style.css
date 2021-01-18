@@ -5,7 +5,7 @@ body{
     height: 2000px;
 }
 .container{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -292,4 +292,83 @@ font-size: 8px;
     footer .copyright a{
          color: #e9edf4;
          font-weight: 600;
+    }
+    
+    
+    
+    @media screen and (max-width:630px){
+        nav .container{
+            padding: 0 30px;
+        }
+        .features .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .features-item:not(:last-child){
+            margin-bottom: 60px;
+        }
+        .team .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .team-item:first-child{
+            margin-bottom: 60px;
+        }
+        .brands .container{
+            flex-wrap: wrap;
+            width:50%;
+        }
+        .brands-item:nth-child(1){
+            margin-bottom: 60px;
+        }
+        .brands-item:nth-child(2){
+            margin-bottom: 60px;
+        }
+        .news .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .news-item:first-child{
+            margin-bottom: 60px;
+        }
+        .services .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .posts {
+            padding: 0 30px;
+        }
+        .posts-item{
+            align-items: center;
+        }
+        .sign__text{
+            max-width: 80%;
+        }
+    }
+    @media screen and (max-width:550px){
+        .brands .container{
+            width: 250px;
+            justify-content: center;
+        }
+        .brands-item:nth-child(1){
+            margin-bottom: 20px;
+        }
+        .brands-item:nth-child(2){
+            margin-bottom: 20px;
+        }
+        .brands-item{
+            margin-bottom: 20px;
+        }
+        .posts-item{
+                flex-direction: column;   
+                align-items:center;
+                justify-content: space-between; 
+        }
+        .posts-item:first-child{
+            margin-bottom: 80px;
+        }
+        .posts__img{
+            display: block;
+            margin-bottom: 50px;
+        }
     }
